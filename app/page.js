@@ -1,3 +1,4 @@
+"use client";
 import React, { useState, useEffect } from "react";
 
 const save = (k, d) => localStorage.setItem(k, JSON.stringify(d));
