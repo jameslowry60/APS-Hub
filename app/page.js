@@ -1,8 +1,19 @@
 "use client";
 // import React, { useState, useEffect } from "react";
 import { useState, useEffect } from "react";
-const save = (k, d) => localStorage.setItem(k, JSON.stringify(d));
-const load = (k, f) => JSON.parse(localStorage.getItem(k)) || f;
+const save = (k, d) => {
+  if (typeof window !== "undefined") {
+    localStorage.setItem(k, JSON.stringify(d));
+  }
+};
+
+const load = (k, f) => {
+  if (typeof window !== "undefined") {
+    const item = localStorage.getItem(k);
+    return item ? JSON.parse(item) : f;
+  }
+  return f;
+};
 
 export default function APSHub() {
   const [users, setUsers] = useState(load("users", []));
