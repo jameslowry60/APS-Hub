@@ -27,7 +27,36 @@ export default function APSHub() {
         minHeight: "100vh"
       }}
     >
-      <h1 style={{ fontSize: "38px", fontWeight: "700", marginBottom: "10px" }}>
+      <div
+  style={{
+    background: "#243b53",
+    color: "white",
+    padding: "16px 20px",
+    borderRadius: "14px",
+    marginBottom: "24px",
+    display: "flex",
+    justifyContent: "space-between",
+    alignItems: "center",
+    flexWrap: "wrap"
+  }}
+>
+  <div style={{ fontSize: "20px", fontWeight: "700" }}>
+    APS Awareness
+  </div>
+
+  <div
+    style={{
+      display: "flex",
+      gap: "16px",
+      fontSize: "14px",
+      marginTop: "6px"
+    }}
+  >
+    <span>Home</span>
+    <span>Symptoms</span>
+    <span>Resources</span>
+  </div>
+</div> style={{ fontSize: "38px", fontWeight: "700", marginBottom: "10px" }}>
         APS Awareness & Support Hub
       </h1>
 
