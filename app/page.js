@@ -1,4 +1,4 @@
-"use client";
+8"use client";
 import { useState } from "react";
 
 export default function APSHub() {
@@ -131,7 +131,20 @@ style={{
   >
     Create My Emergency Passport
   </button>
-</div>
+
+      {showPassport && (
+  <div style={section}>
+    <div style={title}>Emergency Passport</div>
+    <p>Diagnosis: {passport.diagnosis}</p>
+    <p>Anticoagulant: {passport.anticoagulant}</p>
+    <p>Warfarin Dose: {passport.warfarinDose}</p>
+    <p>Target INR: {passport.targetINR}</p>
+    <p>Last INR: {passport.lastINR}</p>
+    <p>Clot History: {passport.clotHistory}</p>
+    <p>Consultant: {passport.consultant}</p>
+    <p>Emergency Contact: {passport.emergencyContact}</p>
+  </div>
+    ))
       <div style={section}>
         <div style={title}>Share Awareness</div>
 
