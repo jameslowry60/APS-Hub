@@ -56,6 +56,7 @@ export default function APSHub() {
     <span>Symptoms</span>
     <span>Resources</span>
   </div>
+   </div>
 <h1 style={{ fontSize: "38px", fontWeight: "700", marginBottom: "10px" }}>
   APS Awareness & Support Hub
 </h1>
