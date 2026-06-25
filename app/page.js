@@ -56,9 +56,9 @@ export default function APSHub() {
     <span>Symptoms</span>
     <span>Resources</span>
   </div>
-<h1 style={{ fontSize: "38px", fontWeight: "700", marginBottom: "10px" }}> fontSize: "38px", fontWeight: "700", marginBottom: "10px" }}>
-        APS Awareness & Support Hub
-      </h1>
+<h1 style={{ fontSize: "38px", fontWeight: "700", marginBottom: "10px" }}>
+  APS Awareness & Support Hub
+</h1>
 
       <p style={{ fontSize: "16px", color: "#555", marginBottom: "30px" }}>
         Helping families understand Antiphospholipid Syndrome (APS),
