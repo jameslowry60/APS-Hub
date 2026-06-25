@@ -1,7 +1,18 @@
  "use client";
+import { useState } from "react";
 
 export default function APSHub() {
-
+const [showPassport, setShowPassport] = useState(false);
+const [passport, setPassport] = useState({
+  diagnosis: "",
+  anticoagulant: "",
+  warfarinDose: "",
+  targetINR: "",
+  lastINR: "",
+  clotHistory: "",
+  consultant: "",
+  emergencyContact: ""
+});
   const section = {
     background: "#ffffff",
     padding: "24px",
@@ -107,7 +118,8 @@ export default function APSHub() {
   </ul>
 
   <button
-    style={{
+    onClick={() => setShowPassport(!showPassport)}
+style={{
       padding: "12px 20px",
       borderRadius: "10px",
       border: "none",
@@ -116,7 +128,7 @@ export default function APSHub() {
       fontSize: "16px",
       cursor: "pointer"
     }}
-  >
+  
     Create My Emergency Passport
   </button>
 </div>
