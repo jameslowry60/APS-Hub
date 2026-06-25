@@ -87,7 +87,38 @@ export default function APSHub() {
           <li>Circulation issues</li>
         </ul>
       </div>
+<div style={section}>
+  <div style={title}>APS Emergency Passport</div>
 
+  <p style={{ lineHeight: "1.7", color: "#444" }}>
+    Store your vital APS information for emergency hospital care.
+  </p>
+
+  <ul style={{ lineHeight: "2", color: "#444", paddingLeft: "20px" }}>
+    <li>Diagnosis type</li>
+    <li>Current anticoagulant</li>
+    <li>Warfarin dose</li>
+    <li>Target INR</li>
+    <li>Last INR result</li>
+    <li>Clot history</li>
+    <li>Consultant details</li>
+    <li>Emergency contact</li>
+  </ul>
+
+  <button
+    style={{
+      padding: "12px 20px",
+      borderRadius: "10px",
+      border: "none",
+      background: "#dc2626",
+      color: "white",
+      fontSize: "16px",
+      cursor: "pointer"
+    }}
+  >
+    Create My Emergency Passport
+  </button>
+</div>
       <div style={section}>
         <div style={title}>Share Awareness</div>
 
