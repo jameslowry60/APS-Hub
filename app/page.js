@@ -150,9 +150,8 @@ const [passport, setPassport] = useState({
         <div style={title}>Share Awareness</div>
 
         <button
-  onClick={() => {
-    navigator.clipboard.writeText(window.location.href);
-  }}
+  onClick={() => navigator.clipboard.writeText(window.location.href)}
+
   style={{
     padding: "12px 20px",
     borderRadius: "10px",
