@@ -135,14 +135,14 @@ style={{
       {showPassport && (
   <div style={section}>
     <div style={title}>Emergency Passport</div>
-    <p>Diagnosis: {passport.diagnosis}</p>
-    <p>Anticoagulant: {passport.anticoagulant}</p>
-    <p>Warfarin Dose: {passport.warfarinDose}</p>
-    <p>Target INR: {passport.targetINR}</p>
-    <p>Last INR: {passport.lastINR}</p>
-    <p>Clot History: {passport.clotHistory}</p>
-    <p>Consultant: {passport.consultant}</p>
-    <p>Emergency Contact: {passport.emergencyContact}</p>
+    <input placeholder="Diagnosis" />
+<input placeholder="Anticoagulant" />
+<input placeholder="Warfarin Dose" />
+<input placeholder="Target INR" />
+<input placeholder="Last INR" />
+<input placeholder="Clot History" />
+<input placeholder="Consultant" />
+<input placeholder="Emergency Contact" />
   </div>
     ))
       <div style={section}>
