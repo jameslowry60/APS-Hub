@@ -151,7 +151,6 @@ const [passport, setPassport] = useState({
 
         <button
   onClick={() => navigator.clipboard.writeText(window.location.href)}
-
   style={{
     padding: "12px 20px",
     borderRadius: "10px",
