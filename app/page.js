@@ -19,8 +19,8 @@ const [passport, setPassport] = useState({
     borderRadius: "16px",
     marginBottom: "24px",
     boxShadow: "0 2px 10px rgba(0,0,0,0.05)"
-  };
-
+  }; 
+ 
   const title = {
     fontSize: "24px",
     fontWeight: "700",
