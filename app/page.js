@@ -165,7 +165,7 @@ style={{
           Copy Website Link
         </button>
       </div>
-
+ 
       <div style={section}>
         <div style={title}>Join The Support List</div>
 
