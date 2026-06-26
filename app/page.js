@@ -118,19 +118,19 @@ const [passport, setPassport] = useState({
   </ul>
 
   <button
-    onClick={() => setShowPassport(!showPassport)}
-style={{
-      padding: "12px 20px",
-      borderRadius: "10px",
-      border: "none",
-      background: "#dc2626",
-      color: "white",
-      fontSize: "16px",
-      cursor: "pointer"
-    }}
-  >
-    Create My Emergency Passport
-  </button>
+  onClick={() => setShowPassport(!showPassport)}
+  style={{
+    padding: "12px 20px",
+    borderRadius: "10px",
+    border: "none",
+    background: "#dc2626",
+    color: "white",
+    fontSize: "16px",
+    cursor: "pointer"
+  }}
+>
+  Create My Emergency Passport
+</button>
 
       {showPassport && (
   <div style={section}>
