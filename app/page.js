@@ -145,7 +145,7 @@ const [passport, setPassport] = useState({
 <input placeholder="Consultant" />
 <input placeholder="Emergency Contact" />
   </div>
-    </>
+    
       <div style={section}>
         <div style={title}>Share Awareness</div>
 
@@ -206,6 +206,7 @@ const [passport, setPassport] = useState({
           Join
         </button>
       </div>
+       </>
       )}
     </div>
   );
