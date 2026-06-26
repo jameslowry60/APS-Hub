@@ -144,7 +144,7 @@ style={{
 <input placeholder="Consultant" />
 <input placeholder="Emergency Contact" />
   </div>
-    ))
+    )}
       <div style={section}>
         <div style={title}>Share Awareness</div>
 
