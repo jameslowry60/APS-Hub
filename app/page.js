@@ -131,6 +131,7 @@ const [passport, setPassport] = useState({
 >
   Create My Emergency Passport
 </button>
+</div>
 
       {showPassport && (
           <>
