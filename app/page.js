@@ -149,10 +149,10 @@ style={{
         <div style={title}>Share Awareness</div>
 
         <button
-          onClick={() =>
-            navigator.clipboard.writeText(window.location.href)
-          }
-          style={{
+  onClick={() => {
+    navigator.clipboard.writeText(window.location.href);
+  }}
+  style={{
             padding: "12px 20px",
             borderRadius: "10px",
             border: "none",
