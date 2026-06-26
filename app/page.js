@@ -133,6 +133,7 @@ const [passport, setPassport] = useState({
 </button>
 
       {showPassport && (
+     <>
   <div style={section}>
     <div style={title}>Emergency Passport</div>
     <input placeholder="Diagnosis" />
@@ -144,7 +145,7 @@ const [passport, setPassport] = useState({
 <input placeholder="Consultant" />
 <input placeholder="Emergency Contact" />
   </div>
-    
+    </>
       <div style={section}>
         <div style={title}>Share Awareness</div>
 
