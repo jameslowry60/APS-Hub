@@ -153,17 +153,17 @@ style={{
     navigator.clipboard.writeText(window.location.href);
   }}
   style={{
-            padding: "12px 20px",
-            borderRadius: "10px",
-            border: "none",
-            background: "#2563eb",
-            color: "white",
-            fontSize: "16px",
-            cursor: "pointer"
-          }}
-        >
-          Copy Website Link
-        </button>
+    padding: "12px 20px",
+    borderRadius: "10px",
+    border: "none",
+    background: "#2563eb",
+    color: "white",
+    fontSize: "16px",
+    cursor: "pointer"
+  }}
+>
+  Copy Website Link
+</button>
       </div>
  
       <div style={section}>
