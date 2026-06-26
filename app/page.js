@@ -201,7 +201,7 @@ style={{
             fontSize: "16px",
             cursor: "pointer"
           }}
-        >
+          >
           Join
         </button>
       </div>
